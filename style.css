@@ -1,0 +1,16 @@
+.title {
+	color: green;
+	/*font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	font-style: italic;
+	line-height: 48px;*/
+	font: italic 700 24px/48px arial, helvetica, sans-serif;
+}
+.paragraph {
+	font: italic 500 16px/1.5 arial, helvetica, sans-serif;
+	padding: 20px 50px;
+	margin: 30px 0 0;
+	text-align: center;
+	text-transform: uppercase;
+}
