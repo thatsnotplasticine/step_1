@@ -1,14 +1,5 @@
 @import url(reset.css);
 
-/*.title {
-	color: green;
-	/*font-family: Arial, Helvetica, sans-serif;
-	font-weight: 700;
-	font-size: 24px;
-	font-style: italic;
-	line-height: 48px;
-	font: italic 700 24px/48px arial, helvetica, sans-serif*/
-
 .wrap {
 	width: 950px;
 	border: 1px solid #2F4F4F;
