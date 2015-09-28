@@ -1,16 +1,63 @@
-.title {
+@import url(reset.css);
+
+/*.title {
 	color: green;
 	/*font-family: Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 24px;
 	font-style: italic;
-	line-height: 48px;*/
-	font: italic 700 24px/48px arial, helvetica, sans-serif;
-}
-.paragraph {
-	font: italic 500 16px/1.5 arial, helvetica, sans-serif;
-	padding: 20px 50px;
-	margin: 30px 0 0;
-	text-align: center;
-	text-transform: uppercase;
-}
+	line-height: 48px;
+	font: italic 700 24px/48px arial, helvetica, sans-serif*/
+
+.wrap {
+	width: 950px;
+	border: 1px solid #2F4F4F;
+	background: #242424;
+	margin: 0 auto;
+	padding: 10px 15px;
+	}
+
+p {
+	margin: 10px 0 0;
+	}
+	p:first-child {
+		margin-top: 0;
+		color: #6ce8ff;
+		}
+
+/*p:last-child {
+	margin-bottom: 0;
+}*/
+
+.left {
+	background: #808080;
+	float: left;
+	width: 200px;
+	padding: 20px;
+	color: #FFFFFF;
+	}
+
+	.left p:first-child {
+		color: #000;
+		}	
+
+.right {
+	background: #778899;
+	float: right;
+	width: 660px;
+	padding: 20px;
+	color: black;
+	}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	}
+
+/*.clear {
+	clear: both;
+}*/
+
