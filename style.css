@@ -1,7 +1,8 @@
 @import url(reset.css);
 
 .wrap {
-	width: 950px;
+	min-width: 800px;
+    max-width: 1200px;
 	border: 1px solid #2F4F4F;
 	background: #242424;
 	margin: 0 auto;
@@ -34,10 +35,9 @@ p {
 
 .right {
 	background: #778899;
-	float: right;
-	width: 660px;
 	padding: 20px;
 	color: black;
+	margin-left: 250px;
 	}
 
 .clearfix:after {
